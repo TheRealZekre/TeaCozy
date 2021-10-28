@@ -1,0 +1,2 @@
+# TheCozy
+Codecademy project
