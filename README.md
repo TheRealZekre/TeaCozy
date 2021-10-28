@@ -1,2 +1,2 @@
-# TheCozy
+# Tea Cozy
 Codecademy project
