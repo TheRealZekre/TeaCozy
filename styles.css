@@ -8,20 +8,13 @@
 }
 
 /* Navigation */
-.nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo {
-    height: 50px;;
-}
-.nav li {
+.navbar nav ul {
     display: flex;
-}
-.nav>ul>li {
-    list-style: none;
-    text-decoration: underline;
 }
 
 /* Container 1 */
