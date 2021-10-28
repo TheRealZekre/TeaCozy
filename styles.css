@@ -1,0 +1,33 @@
+
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 50px;;
+}
+.nav li {
+    display: flex;
+}
+.nav>ul>li {
+    list-style: none;
+    text-decoration: underline;
+}
+
+/* Container 1 */
+
+img .img-mission {
+    width: 1200px;
+    height: 700px;
+
+}
