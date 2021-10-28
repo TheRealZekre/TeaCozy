@@ -12,14 +12,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    
+}
+.logo {
+    margin-left: 10px;
+    height: 50px;
 }
 .navbar nav ul {
     display: flex;
 }
 
+.navbar nav ul li {
+    list-style: none;
+    text-decoration: underline;
+}
+
 /* Container 1 */
+.container-1 {
+    margin-top: 69px;
+}
 
 img .img-mission {
+    margin-top: 69px;
     width: 1200px;
     height: 700px;
 
