@@ -4,7 +4,11 @@
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
+	}
+
+body {
+	opacity: 0.9;
+	
 }
 
 /* Navigation */
@@ -13,7 +17,10 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    border-bottom: 1px solid seashell;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	z-index: 1;
+	
     
 }
 .logo {
@@ -31,13 +38,19 @@
 
 /* Container 1 */
 .container-1 {
-    margin-top: 69px;
+   
 }
 
-img .img-mission {
-    margin-top: 69px;
+img .img-mission {    
     width: 1200px;
     height: 700px;
+	overflow: hidden;
+	
+}
+.img-mission {
+	margin-top: 69px;
+	overflow: hidden;
+	
 }
 
 /* footer */
