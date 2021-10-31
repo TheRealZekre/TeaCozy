@@ -18,8 +18,9 @@ body {
     align-items: center;
     position: fixed;
 	width: 100%;
+	top: 0;
 	border-bottom: 1px solid seashell;
-	z-index: 1;
+	
 	
     
 }
@@ -34,10 +35,17 @@ body {
 .navbar nav ul li {
     list-style: none;
     text-decoration: underline;
+	padding: 10px;
 }
 
 /* Container 1 */
-.container-1 {
+.container-1 h2, h4 {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	padding: 10px;
+	width: 1200px;
    
 }
 
@@ -49,9 +57,11 @@ img .img-mission {
 }
 .img-mission {
 	margin-top: 69px;
+	margin-left: 50px;
 	overflow: hidden;
 	
 }
+
 
 /* footer */
 
