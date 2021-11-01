@@ -8,6 +8,7 @@
 
 body {
 	opacity: 0.9;
+	text-align: center;
 	
 }
 
@@ -20,9 +21,7 @@ body {
 	width: 100%;
 	top: 0;
 	border-bottom: 1px solid seashell;
-	
-	
-    
+	overflow: hidden;    
 }
 .logo {
     margin-left: 10px;
@@ -39,14 +38,18 @@ body {
 }
 
 /* Container 1 */
-.container-1 h2, h4 {
+.container-1>h2, h4 {
+	
 	position: absolute;
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
 	padding: 10px;
-	width: 1200px;
-   
+	width: 1200px;   
+}
+.container-1 h2 {
+	padding: 10px;
+	margin: 100px;
 }
 
 img .img-mission {    
