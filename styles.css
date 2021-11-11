@@ -10,7 +10,6 @@
 body {
 		opacity: 0.9;
 		
-	
 }
 
 /* Navigation */
@@ -39,9 +38,9 @@ body {
 	padding: 10px;
 }
 
-/* Container 1 */
+/* Mission container */
 
-.mission-container {
+#mission-container {
 	display: flex;
 	position: relative;
     justify-content: center;
@@ -59,10 +58,21 @@ body {
 	width: 1200px;
 }
 
-.tea-container {
+#tea-container {
 	display: flex;
 	flex-direction: column;
+	
 	width: 1000px;
+}
+
+#img-month {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: space-around;
+	margin: 10px;
+	align-items: center;
+	
 }
 
 	
