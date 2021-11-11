@@ -46,40 +46,38 @@ body {
     justify-content: center;
     align-items: center;
 	height: 700px;
-	min-height: 100%;
 	background-image: url("./media/img-mission-background.webp");
-	background-size: auto;
+	background-size: 1200px;
 	background-repeat: no-repeat;
 	background-position: center;
-	opacity: 0.9;
+	
 	 
 }
 .mission-text {
 	width: 1200px;
 }
 
-#tea-container {
-	display: flex;
-	flex-direction: column;
-	
+/* Tea of the month container */
+#tea-container {	
 	width: 1000px;
+	text-align: center;
+}
+
+#tea-text {
+	
+	
 }
 
 #img-month {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: space-around;
-	margin: 10px;
-	align-items: center;
+	justify-content: center;	
 	
 }
 
-	
-	
-
-
-
+.tea-type {
+	margin: 10px;
+}
 
 
 
