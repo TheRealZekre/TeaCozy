@@ -99,7 +99,10 @@ main {
 	background-image: url("./media/img-locations-background.webp");
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	height: 500px;
+	width: 1200px;
+	
 
 }
 
@@ -113,6 +116,8 @@ main {
 	
 }
 .address {
+	line-height: 2;
+	margin: 10px;
 	
 	
 }
