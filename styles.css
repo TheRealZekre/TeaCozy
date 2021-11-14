@@ -96,28 +96,40 @@ main {
 /* Locations */
 
 #locations {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
 	background-image: url("./media/img-locations-background.webp");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	height: 500px;
 	width: 1200px;
-	
-
 }
 
 .location-header {
 	background: none;
 }
 
-.address-container {
+#address-container {
 	display: flex;
-	justify-content: center;
+	opacity: 1;	
+	align-items: center;
+	background: none;
+}
+
+#address-container > div {
+	margin: 20px;
+	width: 300px;
+	height: 300px;
 	
 }
+
 .address {
 	line-height: 2;
-	margin: 10px;
+	padding: 10px;
 	
 	
 }
