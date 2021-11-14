@@ -4,11 +4,11 @@
     font-size: 22px;
     color: seashell;
     background-color: black;
-	text-align: center;
 	}
 
 body {
 		opacity: 0.9;
+		text-align: center;
 }
 
 /* Header bar */  
@@ -86,7 +86,6 @@ main {
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 1000px;
-	
 }
 
 .tea-type {
@@ -107,6 +106,7 @@ main {
 	background-size: cover;
 	height: 500px;
 	width: 1200px;
+	opacity: 0.9;
 }
 
 .location-header {
@@ -129,14 +129,22 @@ main {
 
 .address {
 	line-height: 2;
-	padding: 10px;
-	
 	
 }
 
 
 /* footer */
 
-footer {
+#footer {
+	
+	
+	height: 200px;
+	
+}
+
+.copyright {
+	margin-left: 20px;
+	text-align: left;
+
 	
 }
